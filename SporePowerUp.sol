@@ -924,11 +924,25 @@ contract SporePowerUp is Context, AccessControlEnumerable, ERC1155Burnable, ERC1
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
 
-    constructor(string memory uri) ERC1155(uri) {
+    string private _name;
+    string private _symbol;
+
+    constructor(string memory uri, string memory name_, string memory symbol_) ERC1155(uri) {
+        _name = name_;
+        _symbol = symbol_;
+
         _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
 
         _setupRole(MINTER_ROLE, _msgSender());
         _setupRole(PAUSER_ROLE, _msgSender());
+    }
+
+    function name() public view virtual returns (string memory) {
+        return _name;
+    }
+
+    function symbol() public view virtual returns (string memory) {
+        return _symbol;
     }
 
     function mint(
