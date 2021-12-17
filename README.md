@@ -10,3 +10,7 @@
 
 - Pair: https://analytics-polygon.sushi.com/pairs/0xfF47428ad3EfBde6103f382F21C2855C6c933618
 - Contract: https://polygonscan.com/address/0xfF47428ad3EfBde6103f382F21C2855C6c933618
+
+### Opensea Information
+
+- PowerUps NFT Cards: https://opensea.io/collection/spore-pow
