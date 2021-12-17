@@ -1,0 +1,1 @@
+# spore-cross-chain-contract-monorepo
