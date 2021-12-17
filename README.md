@@ -27,7 +27,7 @@
 
 - Pair: https://analytics-bsc.sushi.com/pairs/0x4b36FaD3d3b81a59b7F7eB1C75B76248cDBE22E8
 - Contract: https://bscscan.com/address/0x4b36FaD3d3b81a59b7F7eB1C75B76248cDBE22E8
-- 
+
 ### NFT Information
 
 - SporePowerUp.sol (ERC1155): https://bscscan.com/address/0xd34211BC3489f2e6168c502c1Dc0bC424963Bd18
