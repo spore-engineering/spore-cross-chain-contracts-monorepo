@@ -15,6 +15,7 @@
 
 - OpenSea: https://opensea.io/collection/spore-pow
 
+---
 
 ## Binance Smart Chain Mainnet
 
